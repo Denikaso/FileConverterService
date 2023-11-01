@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<musicService>
+    <genres>
+        <genre>
+            <name>Рок</name>
+            <artists>
+                <artist>
+                    <name>Marilyn Manson</name>
+                    <releasedWorks>
+                        <work>
+                            <type>Альбом</type>
+                            <title>Lost &amp; Found</title>
+                            <releaseDate>2008-05-05</releaseDate>
+                            <listenCount>3500000</listenCount>
+                            <traks>
+                                <track>
+                                    <title>Lunchbox</title>
+                                    <duration>4:33</duration>
+                                    <producer>Trent Reznor</producer>
+                                </track>
+                                <track>
+                                    <title>The Beautiful People</title>
+                                    <duration>3:43</duration>
+                                    <producer>Sean Beavan</producer>
+                                </track>
+                                <track>
+                                    <title>I Don’t Like the Drugs</title>
+                                    <duration>5:04</duration>
+                                    <producer>Michael Beinhorn</producer>
+                                </track>
+                                <track>
+                                    <title>Irresponsible Hate Anthem</title>
+                                    <duration>4:18</duration>
+                                    <producer>Sean Beavan</producer>
+                                </track>
+                                <track>
+                                    <title>The Fight Song</title>
+                                    <duration>2:56</duration>
+                                    <producer>Dave Sardy</producer>
+                                </track>
+                            </traks>
+                        </work>
+                        <work>
+                            <type>Клип</type>
+                            <title>WE ARE CHAOS</title>
+                            <releaseDate>2020-07-29</releaseDate>
+                            <viewCount>10500000</viewCount>
+                            <producer>Matt Mahurin</producer>
+                            <editor>Matt Mahurin</editor>
+                        </work>
+                    </releasedWorks>
+                </artist>
+            </artists>
+        </genre>
+        <genre>
+            <name>Хип-Хоп</name>
+            <artists>
+                <artist>
+                    <name>Heronwater</name>
+                    <releasedWorks>
+                        <work>
+                            <type>Альбом</type>
+                            <title>NO COMMERCIAL LYRICS</title>
+                            <releaseDate>2022-12-02</releaseDate>
+                            <listenCount>2000000</listenCount>
+                            <traks>
+                                <track>
+                                    <title>В миноре</title>
+                                    <duration>2:49</duration>
+                                    <producer>Lawzy</producer>
+                                </track>
+                                <track>
+                                    <title>PROJECT X</title>
+                                    <duration>2:12</duration>
+                                    <producer>Heronwater Beats</producer>
+                                </track>
+                                <track>
+                                    <title>Промо</title>
+                                    <duration>2:59</duration>
+                                    <producer>Wex</producer>
+                                    <featuredArstist>DooMee</featuredArstist>
+                                </track>
+                                <track>
+                                    <title>Одаривает</title>
+                                    <duration>2:10</duration>
+                                    <producer>Heronwater Beats</producer>
+                                </track>
+                                <track>
+                                    <title>Со сцены</title>
+                                    <duration>2:22</duration>
+                                    <producer>saintracks</producer>
+                                </track>
+                            </traks>
+                        </work>
+                        <work>
+                            <type>Клип</type>
+                            <title>Любить буду</title>
+                            <releaseDate>2023-10-13</releaseDate>
+                            <viewCount>400000</viewCount>
+                            <producer>Kapitalina S.</producer>
+                            <editor>Artemy Zubel</editor>
+                        </work>
+                    </releasedWorks>
+                </artist>
+                <artist>
+                    <name>PHARAOH</name>
+                    <releasedWorks>
+                        <work>
+                            <type>Альбом</type>
+                            <title>Правило</title>
+                            <releaseDate>2020-03-27</releaseDate>
+                            <listenCount>4500000</listenCount>
+                            <traks>
+                                <track>
+                                    <title>AMG</title>
+                                    <duration>2:52</duration>
+                                    <producer>Minor2Go</producer>
+                                </track>
+                                <track>
+                                    <title>Семейные узы</title>
+                                    <duration>2:14</duration>
+                                    <producer>Dima Roux</producer>
+                                    <featuredArstist>Mnogoznaal</featuredArstist>
+                                </track>
+                                <track>
+                                    <title>Чувствую</title>
+                                    <duration>2:49</duration>
+                                    <producer>Bryte</producer>
+                                    <featuredArstist>Dima Roux</featuredArstist>
+                                </track>
+                                <track>
+                                    <title>Из-за тебя</title>
+                                    <duration>3:19</duration>
+                                    <producer>Sergei Sphul</producer>
+                                </track>
+                            </traks>
+                        </work>
+                        <work>
+                            <type>Клип</type>
+                            <title>Дико, например</title>
+                            <releaseDate>2017-05-28</releaseDate>
+                            <viewCount>96000000</viewCount>
+                            <producer>Backyeard.Moscow</producer>
+                            <editor>Daniel</editor>
+                        </work>
+                        <work>
+                            <type>Клип</type>
+                            <title> Взглянем В Глаза Правде</title>
+                            <releaseDate>2023-08-18</releaseDate>
+                            <viewCount>500000</viewCount>
+                            <producer>VISNU</producer>
+                            <editor>VISNU</editor>
+                        </work>
+                    </releasedWorks>
+                </artist>
+            </artists>
+        </genre>
+    </genres>
+    <personalPlaylists>
+        <playlist id="1">
+            <name>Избранное</name>
+            <createdBy>User_Name</createdBy>
+            <creationDate>2022-08-17</creationDate>
+            <tracks>
+                <track>
+                    <title>Любить буду</title>
+                    <artist>Heronwater</artist>
+                    <duration>1:58</duration>
+                </track>
+                <track>
+                    <title>Оранжевая песня</title>
+                    <artist>zavet</artist>
+                    <duration>2:28</duration>
+                    <featuredArstist>Boulevard Depo</featuredArstist>
+                </track>
+                <track>
+                    <title>Ева</title>
+                    <artist>Винтаж</artist>
+                    <duration>4:10</duration>
+                </track>
+            </tracks>
+        </playlist>
+        <playlist id="2">
+            <name>Для вечеринки</name>
+            <createdBy>User_Name</createdBy>
+            <creationDate>2020-02-13</creationDate>
+            <tracks>
+                <track>
+                    <title>Когда мы были молодыми</title>
+                    <artist>Руки Вверх!</artist>
+                    <duration>5:40</duration>
+                </track>
+                <track>
+                    <title>БЕГИ ОТ МЕНЯ</title>
+                    <artist>Kai Angel, 9mice</artist>
+                    <duration>4:00</duration>
+                    <featuredArstist>ANIKV</featuredArstist>
+                </track>
+            </tracks>
+        </playlist>
+    </personalPlaylists>
+</musicService>
