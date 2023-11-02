@@ -5,48 +5,48 @@
             <name>Рок</name>
             <artists>
                 <artist>
-                    <name>Marilyn Manson</name>
+                    <name>Marilyn_Manson</name>
                     <releasedWorks>
                         <work>
                             <type>Альбом</type>
-                            <title>Lost &amp; Found</title>
+                            <title>Lost_&amp;_Found</title>
                             <releaseDate>2008-05-05</releaseDate>
                             <listenCount>3500000</listenCount>
                             <traks>
                                 <track>
                                     <title>Lunchbox</title>
                                     <duration>4:33</duration>
-                                    <producer>Trent Reznor</producer>
+                                    <producer>Trent_Reznor</producer>
                                 </track>
                                 <track>
-                                    <title>The Beautiful People</title>
+                                    <title>The_Beautiful_People</title>
                                     <duration>3:43</duration>
-                                    <producer>Sean Beavan</producer>
+                                    <producer>Sean_Beavan</producer>
                                 </track>
                                 <track>
-                                    <title>I Don’t Like the Drugs</title>
+                                    <title>I_Don’t_Like_the_Drugs</title>
                                     <duration>5:04</duration>
-                                    <producer>Michael Beinhorn</producer>
+                                    <producer>Michael_Beinhorn</producer>
                                 </track>
                                 <track>
-                                    <title>Irresponsible Hate Anthem</title>
+                                    <title>Irresponsible_Hate_Anthem</title>
                                     <duration>4:18</duration>
-                                    <producer>Sean Beavan</producer>
+                                    <producer>Sean_Beavan</producer>
                                 </track>
                                 <track>
-                                    <title>The Fight Song</title>
+                                    <title>The_Fight_Song</title>
                                     <duration>2:56</duration>
-                                    <producer>Dave Sardy</producer>
+                                    <producer>Dave_Sardy</producer>
                                 </track>
                             </traks>
                         </work>
                         <work>
                             <type>Клип</type>
-                            <title>WE ARE CHAOS</title>
+                            <title>WE_ARE_CHAOS</title>
                             <releaseDate>2020-07-29</releaseDate>
                             <viewCount>10500000</viewCount>
-                            <producer>Matt Mahurin</producer>
-                            <editor>Matt Mahurin</editor>
+                            <producer>Matt_Mahurin</producer>
+                            <editor>Matt_Mahurin</editor>
                         </work>
                     </releasedWorks>
                 </artist>
@@ -60,19 +60,19 @@
                     <releasedWorks>
                         <work>
                             <type>Альбом</type>
-                            <title>NO COMMERCIAL LYRICS</title>
+                            <title>NO_COMMERCIAL_LYRICS</title>
                             <releaseDate>2022-12-02</releaseDate>
                             <listenCount>2000000</listenCount>
                             <traks>
                                 <track>
-                                    <title>В миноре</title>
+                                    <title>В_миноре</title>
                                     <duration>2:49</duration>
                                     <producer>Lawzy</producer>
                                 </track>
                                 <track>
-                                    <title>PROJECT X</title>
+                                    <title>PROJECT_X</title>
                                     <duration>2:12</duration>
-                                    <producer>Heronwater Beats</producer>
+                                    <producer>Heronwater_Beats</producer>
                                 </track>
                                 <track>
                                     <title>Промо</title>
@@ -83,10 +83,10 @@
                                 <track>
                                     <title>Одаривает</title>
                                     <duration>2:10</duration>
-                                    <producer>Heronwater Beats</producer>
+                                    <producer>Heronwater_Beats</producer>
                                 </track>
                                 <track>
-                                    <title>Со сцены</title>
+                                    <title>Со_сцены</title>
                                     <duration>2:22</duration>
                                     <producer>saintracks</producer>
                                 </track>
@@ -94,11 +94,11 @@
                         </work>
                         <work>
                             <type>Клип</type>
-                            <title>Любить буду</title>
+                            <title>Любить_буду</title>
                             <releaseDate>2023-10-13</releaseDate>
                             <viewCount>400000</viewCount>
-                            <producer>Kapitalina S.</producer>
-                            <editor>Artemy Zubel</editor>
+                            <producer>Kapitalina_S.</producer>
+                            <editor>Artemy_Zubel</editor>
                         </work>
                     </releasedWorks>
                 </artist>
@@ -117,27 +117,27 @@
                                     <producer>Minor2Go</producer>
                                 </track>
                                 <track>
-                                    <title>Семейные узы</title>
+                                    <title>Семейные_узы</title>
                                     <duration>2:14</duration>
-                                    <producer>Dima Roux</producer>
+                                    <producer>Dima_Roux</producer>
                                     <featuredArstist>Mnogoznaal</featuredArstist>
                                 </track>
                                 <track>
                                     <title>Чувствую</title>
                                     <duration>2:49</duration>
                                     <producer>Bryte</producer>
-                                    <featuredArstist>Dima Roux</featuredArstist>
+                                    <featuredArstist>Dima_Roux</featuredArstist>
                                 </track>
                                 <track>
-                                    <title>Из-за тебя</title>
+                                    <title>Из-за_тебя</title>
                                     <duration>3:19</duration>
-                                    <producer>Sergei Sphul</producer>
+                                    <producer>Sergei_Sphul</producer>
                                 </track>
                             </traks>
                         </work>
                         <work>
                             <type>Клип</type>
-                            <title>Дико, например</title>
+                            <title>Дико,_например</title>
                             <releaseDate>2017-05-28</releaseDate>
                             <viewCount>96000000</viewCount>
                             <producer>Backyeard.Moscow</producer>
@@ -145,7 +145,7 @@
                         </work>
                         <work>
                             <type>Клип</type>
-                            <title> Взглянем В Глаза Правде</title>
+                            <title>_Взглянем_В_Глаза_Правде</title>
                             <releaseDate>2023-08-18</releaseDate>
                             <viewCount>500000</viewCount>
                             <producer>VISNU</producer>
@@ -163,15 +163,15 @@
             <creationDate>2022-08-17</creationDate>
             <tracks>
                 <track>
-                    <title>Любить буду</title>
+                    <title>Любить_буду</title>
                     <artist>Heronwater</artist>
                     <duration>1:58</duration>
                 </track>
                 <track>
-                    <title>Оранжевая песня</title>
+                    <title>Оранжевая_песня</title>
                     <artist>zavet</artist>
                     <duration>2:28</duration>
-                    <featuredArstist>Boulevard Depo</featuredArstist>
+                    <featuredArstist>Boulevard_Depo</featuredArstist>
                 </track>
                 <track>
                     <title>Ева</title>
@@ -181,18 +181,18 @@
             </tracks>
         </playlist>
         <playlist id="2">
-            <name>Для вечеринки</name>
+            <name>Для_вечеринки</name>
             <createdBy>User_Name</createdBy>
             <creationDate>2020-02-13</creationDate>
             <tracks>
                 <track>
-                    <title>Когда мы были молодыми</title>
-                    <artist>Руки Вверх!</artist>
+                    <title>Когда_мы_были_молодыми</title>
+                    <artist>Руки_Вверх!</artist>
                     <duration>5:40</duration>
                 </track>
                 <track>
-                    <title>БЕГИ ОТ МЕНЯ</title>
-                    <artist>Kai Angel, 9mice</artist>
+                    <title>БЕГИ_ОТ_МЕНЯ</title>
+                    <artist>Kai_Angel,_9mice</artist>
                     <duration>4:00</duration>
                     <featuredArstist>ANIKV</featuredArstist>
                 </track>

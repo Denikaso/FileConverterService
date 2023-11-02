@@ -5,48 +5,48 @@
         "name": "Рок",
         "artists": [
           {
-            "name": "Marilyn Manson",
+            "name": "Marilyn_Manson",
             "releasedWorks": [
               {
                 "type": "Альбом",
-                "title": "Lost & Found",
+                "title": "Lost_&_Found",
                 "releaseDate": "2008-05-05",
                 "listenCount": 3500000,
                 "tracks": [
                   {
                     "title": "Lunchbox",
                     "duration": "4:33",
-                    "producer": "Trent Reznor"
+                    "producer": "Trent_Reznor"
                   },
                   {
-                    "title": "The Beautiful People",
+                    "title": "The_Beautiful_People",
                     "duration": "3:43",
-                    "producer": "Sean Beavan"
+                    "producer": "Sean_Beavan"
                   },
                   {
-                    "title": "I Don’t Like the Drugs",
+                    "title": "I_Don’t_Like_the_Drugs",
                     "duration": "5:04",
-                    "producer": "Michael Beinhorn"
+                    "producer": "Michael_Beinhorn"
                   },
                   {
-                    "title": "Irresponsible Hate Anthem",
+                    "title": "Irresponsible_Hate_Anthem",
                     "duration": "4:18",
-                    "producer": "Sean Beavan"
+                    "producer": "Sean_Beavan"
                   },
                   {
-                    "title": "The Fight Song",
+                    "title": "The_Fight_Song",
                     "duration": "2:56",
-                    "producer": "Dave Sardy"
+                    "producer": "Dave_Sardy"
                   }
                 ]
               },
               {
                 "type": "Клип",
-                "title": "WE ARE CHAOS",
+                "title": "WE_ARE_CHAOS",
                 "releaseDate": "2020-07-29",
                 "viewCount": 10500000,
-                "producer": "Matt Mahurin",
-                "editor": "Matt Mahurin"
+                "producer": "Matt_Mahurin",
+                "editor": "Matt_Mahurin"
               }
             ]
           }
@@ -60,29 +60,29 @@
             "releasedWorks": [
               {
                 "type": "Альбом",
-                "title": "NO COMMERCIAL LYRICS",
+                "title": "NO_COMMERCIAL_LYRICS",
                 "releaseDate": "2022-12-02",
                 "listenCount": 2000000,
                 "tracks": [
                   {
-                    "title": "В миноре",
+                    "title": "В_миноре",
                     "duration": "2:49",
                     "producer": "Lawzy"
                   },
                   {
-                    "title": "PROJECT X",
+                    "title": "PROJECT_X",
                     "duration": "2:12",
-                    "producer": "Heronwater Beats"
+                    "producer": "Heronwater_Beats"
                   }
                 ]
               },
               {
                 "type": "Клип",
-                "title": "Любить буду",
+                "title": "Любить_буду",
                 "releaseDate": "2023-10-13",
                 "viewCount": 400000,
-                "producer": "Kapitalina S.",
-                "editor": "Artemy Zubel"
+                "producer": "Kapitalina_S.",
+                "editor": "Artemy_Zubel"
               }
             ]
           },
@@ -101,27 +101,27 @@
                     "producer": "Minor2Go"
                   },
                   {
-                    "title": "Семейные узы",
+                    "title": "Семейные_узы",
                     "duration": "2:14",
-                    "producer": "Dima Roux",
+                    "producer": "Dima_Roux",
                     "featuredArtist": "Mnogoznaal"
                   },
                   {
                     "title": "Чувствую",
                     "duration": "2:49",
                     "producer": "Bryte",
-                    "featuredArtist": "Dima Roux"
+                    "featuredArtist": "Dima_Roux"
                   },
                   {
-                    "title": "Из-за тебя",
+                    "title": "Из-за_тебя",
                     "duration": "3:19",
-                    "producer": "Sergei Sphul"
+                    "producer": "Sergei_Sphul"
                   }
                 ]
               },
               {
                 "type": "Клип",
-                "title": "Дико, например",
+                "title": "Дико,_например",
                 "releaseDate": "2017-05-28",
                 "viewCount": 96000000,
                 "producer": "Backyeard.Moscow",
@@ -129,7 +129,7 @@
               },
               {
                 "type": "Клип",
-                "title": " Взглянем В Глаза Правде",
+                "title": "_Взглянем_В_Глаза_Правде",
                 "releaseDate": "2023-08-18",
                 "viewCount": 500000,
                 "producer": "VISNU",
@@ -149,16 +149,16 @@
         "tracks": [
           {
             "id": 1,
-            "title": "Любить буду",
+            "title": "Любить_буду",
             "artist": "Heronwater",
             "duration": "1:58"
           },
           {
             "id": 2,
-            "title": "Оранжевая песня",
+            "title": "Оранжевая_песня",
             "artist": "zavet",
             "duration": "2:28",
-            "featuredArtist": "Boulevard Depo"
+            "featuredArtist": "Boulevard_Depo"
           },
           {
             "id": 3,
@@ -170,20 +170,20 @@
       },
       {
         "id": 2,
-        "name": "Для вечеринки",
+        "name": "Для_вечеринки",
         "createdBy": "User_Name",
         "creationDate": "2020-02-13",
         "tracks": [
           {
             "id": 4,
-            "title": "Когда мы были молодыми",
-            "artist": "Руки Вверх!",
+            "title": "Когда_мы_были_молодыми",
+            "artist": "Руки_Вверх!",
             "duration": "5:40"
           },
           {
             "id": 5,
-            "title": "БЕГИ ОТ МЕНЯ",
-            "artist": "Kai Angel, 9mice",
+            "title": "БЕГИ_ОТ_МЕНЯ",
+            "artist": "Kai_Angel,_9mice",
             "duration": "4:00",
             "featuredArtist": "ANIKV"
           }
