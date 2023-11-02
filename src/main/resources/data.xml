@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<musicService>
+<?xml version="1.0" encoding="UTF-8"?>
+<musicCatalog>
     <genres>
         <genre>
             <name>Рок</name>
@@ -11,42 +11,46 @@
                             <type>Альбом</type>
                             <title>Lost_&amp;_Found</title>
                             <releaseDate>2008-05-05</releaseDate>
-                            <listenCount>3500000</listenCount>
-                            <traks>
-                                <track>
-                                    <title>Lunchbox</title>
-                                    <duration>4:33</duration>
-                                    <producer>Trent_Reznor</producer>
-                                </track>
-                                <track>
-                                    <title>The_Beautiful_People</title>
-                                    <duration>3:43</duration>
-                                    <producer>Sean_Beavan</producer>
-                                </track>
-                                <track>
-                                    <title>I_Don’t_Like_the_Drugs</title>
-                                    <duration>5:04</duration>
-                                    <producer>Michael_Beinhorn</producer>
-                                </track>
-                                <track>
-                                    <title>Irresponsible_Hate_Anthem</title>
-                                    <duration>4:18</duration>
-                                    <producer>Sean_Beavan</producer>
-                                </track>
-                                <track>
-                                    <title>The_Fight_Song</title>
-                                    <duration>2:56</duration>
-                                    <producer>Dave_Sardy</producer>
-                                </track>
-                            </traks>
+                            <album>
+                                <listenCount>3500000</listenCount>
+                                <tracks>
+                                    <track>
+                                        <title>Lunchbox</title>
+                                        <duration>4:33</duration>
+                                        <producer>Trent_Reznor</producer>
+                                    </track>
+                                    <track>
+                                        <title>The_Beautiful_People</title>
+                                        <duration>3:43</duration>
+                                        <producer>Sean_Beavan</producer>
+                                    </track>
+                                    <track>
+                                        <title>I_Don’t_Like_the_Drugs</title>
+                                        <duration>5:04</duration>
+                                        <producer>Michael_Beinhorn</producer>
+                                    </track>
+                                    <track>
+                                        <title>Irresponsible_Hate_Anthem</title>
+                                        <duration>4:18</duration>
+                                        <producer>Sean_Beavan</producer>
+                                    </track>
+                                    <track>
+                                        <title>The_Fight_Song</title>
+                                        <duration>2:56</duration>
+                                        <producer>Dave_Sardy</producer>
+                                    </track>
+                                </tracks>
+                            </album>
                         </work>
                         <work>
                             <type>Клип</type>
                             <title>WE_ARE_CHAOS</title>
                             <releaseDate>2020-07-29</releaseDate>
-                            <viewCount>10500000</viewCount>
-                            <producer>Matt_Mahurin</producer>
-                            <editor>Matt_Mahurin</editor>
+                            <clip>
+                                <viewCount>10500000</viewCount>
+                                <producer>Matt_Mahurin</producer>
+                                <editor>Matt_Mahurin</editor>
+                            </clip>
                         </work>
                     </releasedWorks>
                 </artist>
@@ -62,43 +66,47 @@
                             <type>Альбом</type>
                             <title>NO_COMMERCIAL_LYRICS</title>
                             <releaseDate>2022-12-02</releaseDate>
-                            <listenCount>2000000</listenCount>
-                            <traks>
-                                <track>
-                                    <title>В_миноре</title>
-                                    <duration>2:49</duration>
-                                    <producer>Lawzy</producer>
-                                </track>
-                                <track>
-                                    <title>PROJECT_X</title>
-                                    <duration>2:12</duration>
-                                    <producer>Heronwater_Beats</producer>
-                                </track>
-                                <track>
-                                    <title>Промо</title>
-                                    <duration>2:59</duration>
-                                    <producer>Wex</producer>
-                                    <featuredArstist>DooMee</featuredArstist>
-                                </track>
-                                <track>
-                                    <title>Одаривает</title>
-                                    <duration>2:10</duration>
-                                    <producer>Heronwater_Beats</producer>
-                                </track>
-                                <track>
-                                    <title>Со_сцены</title>
-                                    <duration>2:22</duration>
-                                    <producer>saintracks</producer>
-                                </track>
-                            </traks>
+                            <album>
+                                <listenCount>2000000</listenCount>
+                                <tracks>
+                                    <track>
+                                        <title>В_миноре</title>
+                                        <duration>2:49</duration>
+                                        <producer>Lawzy</producer>
+                                    </track>
+                                    <track>
+                                        <title>PROJECT_X</title>
+                                        <duration>2:12</duration>
+                                        <producer>Heronwater_Beats</producer>
+                                    </track>
+                                    <track>
+                                        <title>Промо</title>
+                                        <duration>2:59</duration>
+                                        <producer>Wex</producer>
+                                        <featuredArtist>DooMee</featuredArtist>
+                                    </track>
+                                    <track>
+                                        <title>Одаривает</title>
+                                        <duration>2:10</duration>
+                                        <producer>Heronwater_Beats</producer>
+                                    </track>
+                                    <track>
+                                        <title>Со_сцены</title>
+                                        <duration>2:22</duration>
+                                        <producer>saintracks</producer>
+                                    </track>
+                                </tracks>
+                            </album>
                         </work>
                         <work>
                             <type>Клип</type>
                             <title>Любить_буду</title>
                             <releaseDate>2023-10-13</releaseDate>
-                            <viewCount>400000</viewCount>
-                            <producer>Kapitalina_S.</producer>
-                            <editor>Artemy_Zubel</editor>
+                            <clip>
+                                <viewCount>400000</viewCount>
+                                <producer>Kapitalina_S.</producer>
+                                <editor>Artemy_Zubel</editor>
+                            </clip>
                         </work>
                     </releasedWorks>
                 </artist>
@@ -109,47 +117,53 @@
                             <type>Альбом</type>
                             <title>Правило</title>
                             <releaseDate>2020-03-27</releaseDate>
-                            <listenCount>4500000</listenCount>
-                            <traks>
-                                <track>
-                                    <title>AMG</title>
-                                    <duration>2:52</duration>
-                                    <producer>Minor2Go</producer>
-                                </track>
-                                <track>
-                                    <title>Семейные_узы</title>
-                                    <duration>2:14</duration>
-                                    <producer>Dima_Roux</producer>
-                                    <featuredArstist>Mnogoznaal</featuredArstist>
-                                </track>
-                                <track>
-                                    <title>Чувствую</title>
-                                    <duration>2:49</duration>
-                                    <producer>Bryte</producer>
-                                    <featuredArstist>Dima_Roux</featuredArstist>
-                                </track>
-                                <track>
-                                    <title>Из-за_тебя</title>
-                                    <duration>3:19</duration>
-                                    <producer>Sergei_Sphul</producer>
-                                </track>
-                            </traks>
+                            <album>
+                                <listenCount>4500000</listenCount>
+                                <tracks>
+                                    <track>
+                                        <title>AMG</title>
+                                        <duration>2:52</duration>
+                                        <producer>Minor2Go</producer>
+                                    </track>
+                                    <track>
+                                        <title>Семейные_узы</title>
+                                        <duration>2:14</duration>
+                                        <producer>Dima_Roux</producer>
+                                        <featuredArtist>Mnogoznaal</featuredArtist>
+                                    </track>
+                                    <track>
+                                        <title>Чувствую</title>
+                                        <duration>2:49</duration>
+                                        <producer>Bryte</producer>
+                                        <featuredArtist>Dima_Roux</featuredArtist>
+                                    </track>
+                                    <track>
+                                        <title>Из-за_тебя</title>
+                                        <duration>3:19</duration>
+                                        <producer>Sergei_Sphul</producer>
+                                    </track>
+                                </tracks>
+                            </album>
                         </work>
                         <work>
                             <type>Клип</type>
                             <title>Дико,_например</title>
                             <releaseDate>2017-05-28</releaseDate>
-                            <viewCount>96000000</viewCount>
-                            <producer>Backyeard.Moscow</producer>
-                            <editor>Daniel</editor>
+                            <clip>
+                                <viewCount>96000000</viewCount>
+                                <producer>Backyeard.Moscow</producer>
+                                <editor>Daniel</editor>
+                            </clip>
                         </work>
                         <work>
                             <type>Клип</type>
                             <title>_Взглянем_В_Глаза_Правде</title>
                             <releaseDate>2023-08-18</releaseDate>
-                            <viewCount>500000</viewCount>
-                            <producer>VISNU</producer>
-                            <editor>VISNU</editor>
+                            <clip>
+                                <viewCount>500000</viewCount>
+                                <producer>VISNU</producer>
+                                <editor>VISNU</editor>
+                            </clip>
                         </work>
                     </releasedWorks>
                 </artist>
@@ -159,7 +173,6 @@
     <personalPlaylists>
         <playlist id="1">
             <name>Избранное</name>
-            <createdBy>User_Name</createdBy>
             <creationDate>2022-08-17</creationDate>
             <tracks>
                 <track>
@@ -171,7 +184,7 @@
                     <title>Оранжевая_песня</title>
                     <artist>zavet</artist>
                     <duration>2:28</duration>
-                    <featuredArstist>Boulevard_Depo</featuredArstist>
+                    <featuredArtist>Boulevard_Depo</featuredArtist>
                 </track>
                 <track>
                     <title>Ева</title>
@@ -182,7 +195,6 @@
         </playlist>
         <playlist id="2">
             <name>Для_вечеринки</name>
-            <createdBy>User_Name</createdBy>
             <creationDate>2020-02-13</creationDate>
             <tracks>
                 <track>
@@ -194,9 +206,9 @@
                     <title>БЕГИ_ОТ_МЕНЯ</title>
                     <artist>Kai_Angel,_9mice</artist>
                     <duration>4:00</duration>
-                    <featuredArstist>ANIKV</featuredArstist>
+                    <featuredArtist>ANIKV</featuredArtist>
                 </track>
             </tracks>
         </playlist>
     </personalPlaylists>
-</musicService>
+</musicCatalog>

@@ -1,10 +1,15 @@
 package service.structure;
 
+import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlElementWrapper;
+import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
+
 import java.util.List;
 
 public class Genre {
     private String name;
+
     private List<Artist> artists;
+
     public String getName() {
         return name;
     }

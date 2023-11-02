@@ -1,8 +1,17 @@
 package service.structure;
 
-public class VideoClip extends Work {
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
+import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
+
+
+@JsonTypeName("Клип")
+public class VideoClip extends Work{
+    @JacksonXmlProperty(localName = "viewCount") // Поле "viewCount" в клипе
     private int viewCount;
+    @JacksonXmlProperty(localName = "producer") // Поле "producer" в клипе
     private String producer;
+    @JacksonXmlProperty(localName = "editor") // Поле "editor" в клипе
     private String editor;
 
     public int getViewCount() {

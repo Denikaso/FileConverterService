@@ -1,13 +1,19 @@
 package service.structure;
 
+import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlElementWrapper;
+import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
+import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
+
 import java.time.LocalDate;
 import java.util.List;
 
 public class PersonalPlaylist {
     private int id;
+
     private String name;
-    private String createdBy;
-    private LocalDate creationDate;
+
+    private String creationDate;
+
     private List<Track> tracks;
 
     public int getId() {
@@ -26,19 +32,11 @@ public class PersonalPlaylist {
         this.name = name;
     }
 
-    public String getCreatedBy() {
-        return createdBy;
-    }
-
-    public void setCreatedBy(String createdBy) {
-        this.createdBy = createdBy;
-    }
-
-    public LocalDate getCreationDate() {
+    public String  getCreationDate() {
         return creationDate;
     }
 
-    public void setCreationDate(LocalDate creationDate) {
+    public void setCreationDate(String  creationDate) {
         this.creationDate = creationDate;
     }
 

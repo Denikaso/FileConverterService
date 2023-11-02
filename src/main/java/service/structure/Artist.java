@@ -1,9 +1,13 @@
 package service.structure;
 
+import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlElementWrapper;
+import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
+
 import java.util.List;
 
 public class Artist {
     private String name;
+
     private List<Work> releasedWorks;
 
     public String getName() {
