@@ -1,6 +1,8 @@
 package service.structure;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.JsonInclude.Include;
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlText;
 
@@ -10,10 +12,13 @@ public class Track {
 
     private String duration;
 
+    @JsonInclude(Include.NON_NULL)
     private String producer;
 
+    @JsonInclude(Include.NON_NULL)
     private String featuredArtist;
 
+    @JsonInclude(Include.NON_NULL)
     private String artist;
 
     public String getTitle() {

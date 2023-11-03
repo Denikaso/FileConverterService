@@ -8,11 +8,12 @@ import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
 import java.util.List;
 
 @JsonTypeName("Альбом")
+@JacksonXmlRootElement(localName = "Альбом")
 public class Album extends Work{
-    @JacksonXmlProperty(localName = "listenCount") // Поле "listenCount" в альбоме
+    @JacksonXmlProperty(localName = "listenCount")
     private int listenCount;
-    @JacksonXmlElementWrapper(localName = "tracks") // Элемент "tracks" содержит список треков
-    @JacksonXmlProperty(localName = "track") // Подэлементы "track"
+    @JacksonXmlElementWrapper(localName = "tracks")
+    @JacksonXmlProperty(localName = "track")
     private List<Track> tracks;
 
     public int getListenCount() {

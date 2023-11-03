@@ -1,5 +1,6 @@
 package service.structure;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
 import com.fasterxml.jackson.annotation.JsonSubTypes;
@@ -12,6 +13,8 @@ import com.fasterxml.jackson.annotation.JsonTypeInfo;
         @JsonSubTypes.Type(value = VideoClip.class, name = "Клип")
 })
 public abstract class Work {
+
+    @JsonInclude(JsonInclude.Include.NON_NULL)
     @JacksonXmlProperty(localName = "type")
     private String type;
 

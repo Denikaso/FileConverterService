@@ -5,13 +5,14 @@ import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
 
 
-@JsonTypeName("Клип")
+//@JsonTypeName("Клип")
+@JacksonXmlRootElement(localName = "Клип")
 public class VideoClip extends Work{
-    @JacksonXmlProperty(localName = "viewCount") // Поле "viewCount" в клипе
+    @JacksonXmlProperty(localName = "viewCount")
     private int viewCount;
-    @JacksonXmlProperty(localName = "producer") // Поле "producer" в клипе
+    @JacksonXmlProperty(localName = "producer")
     private String producer;
-    @JacksonXmlProperty(localName = "editor") // Поле "editor" в клипе
+    @JacksonXmlProperty(localName = "editor")
     private String editor;
 
     public int getViewCount() {
