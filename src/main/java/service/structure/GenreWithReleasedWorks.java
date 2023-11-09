@@ -1,15 +1,20 @@
 package service.structure;
 
-import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlElementWrapper;
-import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.List;
 
-public class Artist {
-    @JacksonXmlProperty(isAttribute = true)
+public class GenreWithReleasedWorks {
+    @JsonProperty("name")
     private String name;
 
+    @JsonProperty("releasedWorks")
     private List<Work> releasedWorks;
+
+    public GenreWithReleasedWorks(String name, List<Work> releasedWorks) {
+        this.name = name;
+        this.releasedWorks = releasedWorks;
+    }
 
     public String getName() {
         return name;

@@ -1,5 +1,6 @@
 package service.structure;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
@@ -12,6 +13,7 @@ import com.fasterxml.jackson.annotation.JsonTypeInfo;
         @JsonSubTypes.Type(value = Album.class, name = "Альбом"),
         @JsonSubTypes.Type(value = VideoClip.class, name = "Клип")
 })
+@JsonIgnoreProperties(ignoreUnknown = true)
 public abstract class Work {
 
     @JsonInclude(JsonInclude.Include.NON_NULL)

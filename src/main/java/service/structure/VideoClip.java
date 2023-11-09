@@ -1,5 +1,6 @@
 package service.structure;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
@@ -7,8 +8,9 @@ import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
 
 //@JsonTypeName("Клип")
 @JacksonXmlRootElement(localName = "Клип")
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class VideoClip extends Work{
-    @JacksonXmlProperty(localName = "viewCount")
+    @JacksonXmlProperty(localName = "viewCount", isAttribute = true)
     private int viewCount;
     @JacksonXmlProperty(localName = "producer")
     private String producer;

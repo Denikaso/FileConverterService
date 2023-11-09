@@ -1,5 +1,6 @@
 package service.structure;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlElementWrapper;
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
@@ -9,8 +10,9 @@ import java.util.List;
 
 @JsonTypeName("Альбом")
 @JacksonXmlRootElement(localName = "Альбом")
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Album extends Work{
-    @JacksonXmlProperty(localName = "listenCount")
+    @JacksonXmlProperty(localName = "listenCount", isAttribute = true)
     private int listenCount;
     @JacksonXmlElementWrapper(localName = "tracks")
     @JacksonXmlProperty(localName = "track")

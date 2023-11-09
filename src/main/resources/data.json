@@ -1,16 +1,16 @@
 {
-  "musicService": {
-    "genres": [
-      {
-        "name": "Рок",
-        "artists": [
-          {
-            "name": "Marilyn_Manson",
-            "releasedWorks": [
-              {
-                "type": "Альбом",
-                "title": "Lost_&_Found",
-                "releaseDate": "2008-05-05",
+  "artists": [
+    {
+      "name": "Marilyn_Manson",
+      "genres": [
+        {
+          "name": "Рок",
+          "releasedWorks": [
+            {
+              "type": "Альбом",
+              "title": "Lost_& Found",
+              "releaseDate": "2008-05-05",
+              "album": {
                 "listenCount": 3500000,
                 "tracks": [
                   {
@@ -39,29 +39,33 @@
                     "producer": "Dave_Sardy"
                   }
                 ]
-              },
-              {
-                "type": "Клип",
-                "title": "WE_ARE_CHAOS",
-                "releaseDate": "2020-07-29",
+              }
+            },
+            {
+              "type": "Клип",
+              "title": "WE_ARE_CHAOS",
+              "releaseDate": "2020-07-29",
+              "clip": {
                 "viewCount": 10500000,
                 "producer": "Matt_Mahurin",
                 "editor": "Matt_Mahurin"
               }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Хип-Хоп",
-        "artists": [
-          {
-            "name": "Heronwater",
-            "releasedWorks": [
-              {
-                "type": "Альбом",
-                "title": "NO_COMMERCIAL_LYRICS",
-                "releaseDate": "2022-12-02",
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Heronwater",
+      "genres": [
+        {
+          "name": "Хип-Хоп",
+          "releasedWorks": [
+            {
+              "type": "Альбом",
+              "title": "NO_COMMERCIAL_LYRICS",
+              "releaseDate": "2022-12-02",
+              "album": {
                 "listenCount": 2000000,
                 "tracks": [
                   {
@@ -73,26 +77,51 @@
                     "title": "PROJECT_X",
                     "duration": "2:12",
                     "producer": "Heronwater_Beats"
+                  },
+                  {
+                    "title": "Промо",
+                    "duration": "2:59",
+                    "producer": "Wex",
+                    "featuredArtist": "DooMee"
+                  },
+                  {
+                    "title": "Одаривает",
+                    "duration": "2:10",
+                    "producer": "Heronwater_Beats"
+                  },
+                  {
+                    "title": "Со_сцены",
+                    "duration": "2:22",
+                    "producer": "saintracks"
                   }
                 ]
-              },
-              {
-                "type": "Клип",
-                "title": "Любить_буду",
-                "releaseDate": "2023-10-13",
+              }
+            },
+            {
+              "type": "Клип",
+              "title": "Любить_буду",
+              "releaseDate": "2023-10-13",
+              "clip": {
                 "viewCount": 400000,
                 "producer": "Kapitalina_S.",
                 "editor": "Artemy_Zubel"
               }
-            ]
-          },
-          {
-            "name": "PHARAOH",
-            "releasedWorks": [
-              {
-                "type": "Альбом",
-                "title": "Правило",
-                "releaseDate": "2020-03-27",
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PHARAOH",
+      "genres": [
+        {
+          "name": "Хип-Хоп",
+          "releasedWorks": [
+            {
+              "type": "Альбом",
+              "title": "Правило",
+              "releaseDate": "2020-03-27",
+              "album": {
                 "listenCount": 4500000,
                 "tracks": [
                   {
@@ -118,77 +147,31 @@
                     "producer": "Sergei_Sphul"
                   }
                 ]
-              },
-              {
-                "type": "Клип",
-                "title": "Дико,_например",
-                "releaseDate": "2017-05-28",
+              }
+            },
+            {
+              "type": "Клип",
+              "title": "Дико,_например",
+              "releaseDate": "2017-05-28",
+              "clip": {
                 "viewCount": 96000000,
-                "producer": "Backyeard.Moscow",
+                "producer": "Backyard.Moscow",
                 "editor": "Daniel"
-              },
-              {
-                "type": "Клип",
-                "title": "_Взглянем_В_Глаза_Правде",
-                "releaseDate": "2023-08-18",
+              }
+            },
+            {
+              "type": "Клип",
+              "title": "_Взглянем_В_Глаза_Правде",
+              "releaseDate": "2023-08-18",
+              "clip": {
                 "viewCount": 500000,
                 "producer": "VISNU",
                 "editor": "VISNU"
               }
-            ]
-          }
-        ]
-      }
-    ],
-    "personalPlaylists": [
-      {
-        "id": 1,
-        "name": "Избранное",
-        "createdBy": "User_Name",
-        "creationDate": "2022-08-17",
-        "tracks": [
-          {
-            "id": 1,
-            "title": "Любить_буду",
-            "artist": "Heronwater",
-            "duration": "1:58"
-          },
-          {
-            "id": 2,
-            "title": "Оранжевая_песня",
-            "artist": "zavet",
-            "duration": "2:28",
-            "featuredArtist": "Boulevard_Depo"
-          },
-          {
-            "id": 3,
-            "title": "Ева",
-            "artist": "Винтаж",
-            "duration": "4:10"
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "name": "Для_вечеринки",
-        "createdBy": "User_Name",
-        "creationDate": "2020-02-13",
-        "tracks": [
-          {
-            "id": 4,
-            "title": "Когда_мы_были_молодыми",
-            "artist": "Руки_Вверх!",
-            "duration": "5:40"
-          },
-          {
-            "id": 5,
-            "title": "БЕГИ_ОТ_МЕНЯ",
-            "artist": "Kai_Angel,_9mice",
-            "duration": "4:00",
-            "featuredArtist": "ANIKV"
-          }
-        ]
-      }
-    ]
-  }
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

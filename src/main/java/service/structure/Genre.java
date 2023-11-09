@@ -6,6 +6,7 @@ import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
 import java.util.List;
 
 public class Genre {
+    @JacksonXmlProperty(isAttribute = true)
     private String name;
 
     private List<Artist> artists;
