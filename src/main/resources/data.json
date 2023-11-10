@@ -7,7 +7,6 @@
           "name": "Рок",
           "releasedWorks": [
             {
-              "type": "Альбом",
               "title": "Lost_& Found",
               "releaseDate": "2008-05-05",
               "album": {
@@ -40,16 +39,6 @@
                   }
                 ]
               }
-            },
-            {
-              "type": "Клип",
-              "title": "WE_ARE_CHAOS",
-              "releaseDate": "2020-07-29",
-              "clip": {
-                "viewCount": 10500000,
-                "producer": "Matt_Mahurin",
-                "editor": "Matt_Mahurin"
-              }
             }
           ]
         }
@@ -62,7 +51,6 @@
           "name": "Хип-Хоп",
           "releasedWorks": [
             {
-              "type": "Альбом",
               "title": "NO_COMMERCIAL_LYRICS",
               "releaseDate": "2022-12-02",
               "album": {
@@ -98,13 +86,28 @@
               }
             },
             {
-              "type": "Клип",
-              "title": "Любить_буду",
-              "releaseDate": "2023-10-13",
-              "clip": {
-                "viewCount": 400000,
-                "producer": "Kapitalina_S.",
-                "editor": "Artemy_Zubel"
+              "title": "DREAMS_MONEY_CAN_BUY",
+              "releaseDate": "2023-09-29",
+              "album": {
+                "listenCount": 2500000,
+                "tracks": [
+                  {
+                    "title": "Любить_буду",
+                    "duration": "1:58",
+                    "producer": "Heronwater_Beats"
+                  },
+                  {
+                    "title": "Много",
+                    "duration": "2:34",
+                    "producer": "Heronwater_Beats"
+                  },
+                  {
+                    "title": "Все_дизайнер",
+                    "duration": "3:11",
+                    "producer": "Wex",
+                    "featuredArtist": "DooMee"
+                  }
+                ]
               }
             }
           ]
@@ -118,7 +121,6 @@
           "name": "Хип-Хоп",
           "releasedWorks": [
             {
-              "type": "Альбом",
               "title": "Правило",
               "releaseDate": "2020-03-27",
               "album": {
@@ -147,26 +149,6 @@
                     "producer": "Sergei_Sphul"
                   }
                 ]
-              }
-            },
-            {
-              "type": "Клип",
-              "title": "Дико,_например",
-              "releaseDate": "2017-05-28",
-              "clip": {
-                "viewCount": 96000000,
-                "producer": "Backyard.Moscow",
-                "editor": "Daniel"
-              }
-            },
-            {
-              "type": "Клип",
-              "title": "_Взглянем_В_Глаза_Правде",
-              "releaseDate": "2023-08-18",
-              "clip": {
-                "viewCount": 500000,
-                "producer": "VISNU",
-                "editor": "VISNU"
               }
             }
           ]

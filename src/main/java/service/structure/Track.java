@@ -8,18 +8,18 @@ import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlText;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Track {
+    @JacksonXmlProperty(localName = "title")
     private String title;
-
+    @JacksonXmlProperty(localName = "duration")
     private String duration;
-
-    @JsonInclude(Include.NON_NULL)
+    @JacksonXmlProperty(localName = "producer")
     private String producer;
-
+    @JacksonXmlProperty(localName = "featuredArtist")
     @JsonInclude(Include.NON_NULL)
     private String featuredArtist;
 
-    @JsonInclude(Include.NON_NULL)
-    private String artist;
+    //@JsonInclude(Include.NON_NULL)
+    //private String artist;
 
     public String getTitle() {
         return title;
@@ -53,11 +53,11 @@ public class Track {
         this.featuredArtist = featuredArtist;
     }
 
-    public String getArtist() {
+    /*public String getArtist() {
         return artist;
-    }
+    }*/
 
-    public void setArtist(String artist) {
+    /*public void setArtist(String artist) {
         this.artist = artist;
-    }
+    }*/
 }

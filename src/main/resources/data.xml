@@ -5,7 +5,6 @@
             <artist name = "Marilyn_Manson">
                 <releasedWorks>
                     <work>
-                        <type>Альбом</type>
                         <title>Lost_&amp;_Found</title>
                         <releaseDate>2008-05-05</releaseDate>
                         <album listenCount = "3500000">
@@ -38,15 +37,6 @@
                             </tracks>
                         </album>
                     </work>
-                    <work>
-                        <type>Клип</type>
-                        <title>WE_ARE_CHAOS</title>
-                        <releaseDate>2020-07-29</releaseDate>
-                        <clip viewCount = "10500000">
-                            <producer>Matt_Mahurin</producer>
-                            <editor>Matt_Mahurin</editor>
-                        </clip>
-                    </work>
                 </releasedWorks>
             </artist>
         </artists>
@@ -56,7 +46,6 @@
             <artist name="Heronwater">
                 <releasedWorks>
                     <work>
-                        <type>Альбом</type>
                         <title>NO_COMMERCIAL_LYRICS</title>
                         <releaseDate>2022-12-02</releaseDate>
                         <album listenCount="2000000">
@@ -91,20 +80,33 @@
                         </album>
                     </work>
                     <work>
-                        <type>Клип</type>
-                        <title>Любить_буду</title>
-                        <releaseDate>2023-10-13</releaseDate>
-                        <clip viewCount="400000">
-                            <producer>Kapitalina_S.</producer>
-                            <editor>Artemy_Zubel</editor>
-                        </clip>
+                        <title>DREAMS_MONEY_CAN_BUY</title>
+                        <releaseDate>2023-09-29</releaseDate>
+                        <album listenCount="2500000">
+                            <tracks>
+                                <track>
+                                    <title>Любить_буду</title>
+                                    <duration>1:58</duration>
+                                    <producer>Heronwater_Beats</producer>
+                                </track>
+                                <track>
+                                    <title>Много</title>
+                                    <duration>2:34</duration>
+                                    <producer>Lawzy</producer>
+                                </track>
+                                <track>
+                                    <title>Все_дизайнер</title>
+                                    <duration>3:11</duration>
+                                    <producer>Wex</producer>
+                                </track>
+                            </tracks>
+                        </album>
                     </work>
                 </releasedWorks>
             </artist>
             <artist name="PHARAOH">
                 <releasedWorks>
                     <work>
-                        <type>Альбом</type>
                         <title>Правило</title>
                         <releaseDate>2020-03-27</releaseDate>
                         <album listenCount="4500000">
@@ -133,24 +135,6 @@
                                 </track>
                             </tracks>
                         </album>
-                    </work>
-                    <work>
-                        <type>Клип</type>
-                        <title>Дико,_например</title>
-                        <releaseDate>2017-05-28</releaseDate>
-                        <clip viewCount="96000000">
-                            <producer>Backyeard.Moscow</producer>
-                            <editor>Daniel</editor>
-                        </clip>
-                    </work>
-                    <work>
-                        <type>Клип</type>
-                        <title>_Взглянем_В_Глаза_Правде</title>
-                        <releaseDate>2023-08-18</releaseDate>
-                        <clip viewCount="500000">
-                            <producer>VISNU</producer>
-                            <editor>VISNU</editor>
-                        </clip>
                     </work>
                 </releasedWorks>
             </artist>

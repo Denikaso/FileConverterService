@@ -8,9 +8,10 @@ import java.util.List;
 public class ArtistWithGenre {
     @JsonProperty("name")
     private String name;
-
-    @JsonProperty("genres")
-    private List<GenreWithReleasedWorks> genres = new ArrayList<>();
+    @JsonProperty("genre")
+    private String genre;
+    @JsonProperty("releasedWorks")
+    private List<Work> releasedWorks;
 
     public ArtistWithGenre(String name) {
         this.name = name;
@@ -23,16 +24,13 @@ public class ArtistWithGenre {
     public void setName(String name) {
         this.name = name;
     }
-
-    public List<GenreWithReleasedWorks> getGenres() {
-        return genres;
+    public String getGenre() {
+        return genre;
     }
 
-    public void setGenres(List<GenreWithReleasedWorks> genres) {
-        this.genres = genres;
+    public void setGenre(String genre) {
+        this.genre = genre;
     }
-
-    public void addGenreWithReleasedWorks(GenreWithReleasedWorks genreWithReleasedWorks) {
-        genres.add(genreWithReleasedWorks);
-    }
+    public List<Work> getReleasedWorks(){return releasedWorks;}
+    public void setReleasedWorks(List<Work> releasedWorks){this.releasedWorks = releasedWorks;}
 }

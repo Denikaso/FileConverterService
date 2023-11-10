@@ -26,11 +26,10 @@ public class Json {
 
                 if (artistWithGenre == null) {
                     artistWithGenre = new ArtistWithGenre(artist.getName());
+                    artistWithGenre.setGenre(genre.getName());
+                    artistWithGenre.setReleasedWorks(artist.getReleasedWorks());
                     artistsWithGenreList.add(artistWithGenre);
                 }
-
-                GenreWithReleasedWorks genreWithReleasedWorks = new GenreWithReleasedWorks(genre.getName(), artist.getReleasedWorks());
-                artistWithGenre.addGenreWithReleasedWorks(genreWithReleasedWorks);
             }
         }
 
