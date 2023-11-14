@@ -52,12 +52,4 @@ public class Track {
     public void setFeaturedArtist(String featuredArtist) {
         this.featuredArtist = featuredArtist;
     }
-
-    /*public String getArtist() {
-        return artist;
-    }*/
-
-    /*public void setArtist(String artist) {
-        this.artist = artist;
-    }*/
 }

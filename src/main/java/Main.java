@@ -9,10 +9,10 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        String inputFilePath = "C:\\Уник\\Практика3\\test\\data.xml";
-        String outputFilePath = "C:\\Уник\\Практика3\\test\\data.json";
+        String inputFilePath = "C:\\Уник\\Практика3\\test\\data.json";
+        String outputFilePath = "C:\\Уник\\Практика3\\test\\data.xml";
 
-        String format = "xmltojson";
+        String format = "jsontoxml";
 
         if (format.equals("xmltojson")) {
             try {
@@ -22,8 +22,18 @@ public class Main {
                     e.printStackTrace();
                 }
 
-        } else if (format.equals("jsontoxml")) {
-        } else {
+        }
+        else if (format.equals("jsontoxml")) {
+            try
+            {
+                List<ArtistWithGenre> artistsWithGenre = Json.read(inputFilePath);
+                Xml.write(artistsWithGenre, outputFilePath);
+            } catch(Exception e) {
+                e.printStackTrace();
+            }
+
+        }
+        else {
             System.err.println("Invalid format. Use 'xmltojson' or 'jsontoxml'.");
             System.exit(1);
         }

@@ -39,5 +39,9 @@ public class Json {
         MusicCatalogJSON musicCatalogJSON = new MusicCatalogJSON(artistsWithGenreList);
         jsonMapper.writeValue(new File(jsonFilePath), musicCatalogJSON);
     }
-
+    static public List<ArtistWithGenre> read(String jsonFilePath) throws IOException {
+        ObjectMapper jsonMapper = new ObjectMapper();
+        MusicCatalogJSON musicCatalogJSON = jsonMapper.readValue(new File(jsonFilePath), MusicCatalogJSON.class);
+        return musicCatalogJSON.getArtists();
+    }
 }

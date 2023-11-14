@@ -17,6 +17,10 @@ public class Work {
     private String releaseDate;
     @JacksonXmlProperty(localName = "album", isAttribute = true)
     private Album album;
+
+    public Work() {
+    }
+
     //@JacksonXmlProperty(localName = "tracks")
     //private List<Track> tracks;
 
@@ -41,6 +45,4 @@ public class Work {
     public void setAlbum(Album album) {
         this.album = album;
     }
-    //public List<Track> getTracks(){return tracks;}
-    //public void setTracks(List<Track> tracks){this.tracks = tracks;}
 }

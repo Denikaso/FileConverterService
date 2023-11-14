@@ -12,6 +12,8 @@ public class ArtistWithGenre {
     private String genre;
     @JsonProperty("releasedWorks")
     private List<Work> releasedWorks;
+    public ArtistWithGenre() {
+    }
 
     public ArtistWithGenre(String name) {
         this.name = name;

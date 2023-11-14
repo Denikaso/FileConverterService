@@ -8,6 +8,8 @@ import java.util.List;
 public class MusicCatalogJSON {
     @JsonProperty("artists")
     private List<ArtistWithGenre> artists;
+    public MusicCatalogJSON() {
+    }
 
     public MusicCatalogJSON(List<ArtistWithGenre> artists) {
         this.artists = artists;
