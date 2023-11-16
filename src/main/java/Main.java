@@ -8,34 +8,35 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import java.util.List;
 
 public class Main {
-    public static void main(String[] args) {
-        String inputFilePath = "C:\\Уник\\Практика3\\test\\data.json";
-        String outputFilePath = "C:\\Уник\\Практика3\\test\\data.xml";
+    public static void main(String[] args) throws Exception {
 
-        String format = "jsontoxml";
+        if (args.length != 2)
+        {
+            throw new Exception();
+        }
 
-        if (format.equals("xmltojson")) {
+        String inputFilePath = args[0];
+        String outputFilePath = args[1];
+
+
+        if (inputFilePath.endsWith(".xml")) {
             try {
                 MusicCatalog musicCatalog = Xml.read(inputFilePath);
                 Json.write(musicCatalog, outputFilePath);
-                } catch (IOException e) {
+            }
+            catch (IOException e) {
                     e.printStackTrace();
                 }
 
         }
-        else if (format.equals("jsontoxml")) {
-            try
-            {
+        else if (inputFilePath.endsWith(".json")) {
+            try {
                 List<ArtistWithGenre> artistsWithGenre = Json.read(inputFilePath);
                 Xml.write(artistsWithGenre, outputFilePath);
-            } catch(Exception e) {
+            }
+            catch(Exception e) {
                 e.printStackTrace();
             }
-
-        }
-        else {
-            System.err.println("Invalid format. Use 'xmltojson' or 'jsontoxml'.");
-            System.exit(1);
         }
     }
 }

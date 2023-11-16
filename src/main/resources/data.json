@@ -1,159 +1,114 @@
 {
-  "artists": [
-    {
-      "name": "Marilyn_Manson",
-      "genres": [
-        {
-          "name": "Рок",
-          "releasedWorks": [
-            {
-              "title": "Lost_& Found",
-              "releaseDate": "2008-05-05",
-              "album": {
-                "listenCount": 3500000,
-                "tracks": [
-                  {
-                    "title": "Lunchbox",
-                    "duration": "4:33",
-                    "producer": "Trent_Reznor"
-                  },
-                  {
-                    "title": "The_Beautiful_People",
-                    "duration": "3:43",
-                    "producer": "Sean_Beavan"
-                  },
-                  {
-                    "title": "I_Don’t_Like_the_Drugs",
-                    "duration": "5:04",
-                    "producer": "Michael_Beinhorn"
-                  },
-                  {
-                    "title": "Irresponsible_Hate_Anthem",
-                    "duration": "4:18",
-                    "producer": "Sean_Beavan"
-                  },
-                  {
-                    "title": "The_Fight_Song",
-                    "duration": "2:56",
-                    "producer": "Dave_Sardy"
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Heronwater",
-      "genres": [
-        {
-          "name": "Хип-Хоп",
-          "releasedWorks": [
-            {
-              "title": "NO_COMMERCIAL_LYRICS",
-              "releaseDate": "2022-12-02",
-              "album": {
-                "listenCount": 2000000,
-                "tracks": [
-                  {
-                    "title": "В_миноре",
-                    "duration": "2:49",
-                    "producer": "Lawzy"
-                  },
-                  {
-                    "title": "PROJECT_X",
-                    "duration": "2:12",
-                    "producer": "Heronwater_Beats"
-                  },
-                  {
-                    "title": "Промо",
-                    "duration": "2:59",
-                    "producer": "Wex",
-                    "featuredArtist": "DooMee"
-                  },
-                  {
-                    "title": "Одаривает",
-                    "duration": "2:10",
-                    "producer": "Heronwater_Beats"
-                  },
-                  {
-                    "title": "Со_сцены",
-                    "duration": "2:22",
-                    "producer": "saintracks"
-                  }
-                ]
-              }
-            },
-            {
-              "title": "DREAMS_MONEY_CAN_BUY",
-              "releaseDate": "2023-09-29",
-              "album": {
-                "listenCount": 2500000,
-                "tracks": [
-                  {
-                    "title": "Любить_буду",
-                    "duration": "1:58",
-                    "producer": "Heronwater_Beats"
-                  },
-                  {
-                    "title": "Много",
-                    "duration": "2:34",
-                    "producer": "Heronwater_Beats"
-                  },
-                  {
-                    "title": "Все_дизайнер",
-                    "duration": "3:11",
-                    "producer": "Wex",
-                    "featuredArtist": "DooMee"
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "PHARAOH",
-      "genres": [
-        {
-          "name": "Хип-Хоп",
-          "releasedWorks": [
-            {
-              "title": "Правило",
-              "releaseDate": "2020-03-27",
-              "album": {
-                "listenCount": 4500000,
-                "tracks": [
-                  {
-                    "title": "AMG",
-                    "duration": "2:52",
-                    "producer": "Minor2Go"
-                  },
-                  {
-                    "title": "Семейные_узы",
-                    "duration": "2:14",
-                    "producer": "Dima_Roux",
-                    "featuredArtist": "Mnogoznaal"
-                  },
-                  {
-                    "title": "Чувствую",
-                    "duration": "2:49",
-                    "producer": "Bryte",
-                    "featuredArtist": "Dima_Roux"
-                  },
-                  {
-                    "title": "Из-за_тебя",
-                    "duration": "3:19",
-                    "producer": "Sergei_Sphul"
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "artists" : [ {
+    "name" : "Marilyn_Manson",
+    "genre" : "Рок",
+    "releasedWorks" : [ {
+      "title" : "Lost_&_Found",
+      "releaseDate" : "2008-05-05",
+      "album" : {
+        "listenCount" : 3500000,
+        "tracks" : [ {
+          "title" : "Lunchbox",
+          "duration" : "4:33",
+          "producer" : "Trent_Reznor"
+        }, {
+          "title" : "The_Beautiful_People",
+          "duration" : "3:43",
+          "producer" : "Sean_Beavan"
+        }, {
+          "title" : "I_Don’t_Like_the_Drugs",
+          "duration" : "5:04",
+          "producer" : "Michael_Beinhorn"
+        }, {
+          "title" : "Irresponsible_Hate_Anthem",
+          "duration" : "4:18",
+          "producer" : "Sean_Beavan"
+        }, {
+          "title" : "The_Fight_Song",
+          "duration" : "2:56",
+          "producer" : "Dave_Sardy"
+        } ]
+      }
+    } ]
+  }, {
+    "name" : "Heronwater",
+    "genre" : "Хип-Хоп",
+    "releasedWorks" : [ {
+      "title" : "NO_COMMERCIAL_LYRICS",
+      "releaseDate" : "2022-12-02",
+      "album" : {
+        "listenCount" : 2000000,
+        "tracks" : [ {
+          "title" : "В_миноре",
+          "duration" : "2:49",
+          "producer" : "Lawzy"
+        }, {
+          "title" : "PROJECT_X",
+          "duration" : "2:12",
+          "producer" : "Heronwater_Beats"
+        }, {
+          "title" : "Промо",
+          "duration" : "2:59",
+          "producer" : "Wex",
+          "featuredArtist" : "DooMee"
+        }, {
+          "title" : "Одаривает",
+          "duration" : "2:10",
+          "producer" : "Heronwater_Beats"
+        }, {
+          "title" : "Со_сцены",
+          "duration" : "2:22",
+          "producer" : "saintracks"
+        } ]
+      }
+    }, {
+      "title" : "DREAMS_MONEY_CAN_BUY",
+      "releaseDate" : "2023-09-29",
+      "album" : {
+        "listenCount" : 2500000,
+        "tracks" : [ {
+          "title" : "Любить_буду",
+          "duration" : "1:58",
+          "producer" : "Heronwater_Beats"
+        }, {
+          "title" : "Много",
+          "duration" : "2:34",
+          "producer" : "Lawzy"
+        }, {
+          "title" : "Все_дизайнер",
+          "duration" : "3:11",
+          "producer" : "Wex"
+        } ]
+      }
+    } ]
+  }, {
+    "name" : "PHARAOH",
+    "genre" : "Хип-Хоп",
+    "releasedWorks" : [ {
+      "title" : "Правило",
+      "releaseDate" : "2020-03-27",
+      "album" : {
+        "listenCount" : 4500000,
+        "tracks" : [ {
+          "title" : "AMG",
+          "duration" : "2:52",
+          "producer" : "Minor2Go"
+        }, {
+          "title" : "Семейные_узы",
+          "duration" : "2:14",
+          "producer" : "Dima_Roux",
+          "featuredArtist" : "Mnogoznaal"
+        }, {
+          "title" : "Чувствую",
+          "duration" : "2:49",
+          "producer" : "Bryte",
+          "featuredArtist" : "Dima_Roux"
+        }, {
+          "title" : "Из-за_тебя",
+          "duration" : "3:19",
+          "producer" : "Sergei_Sphul"
+        } ]
+      }
+    } ]
+  } ]
 }
