@@ -1,5 +1,8 @@
 package service;
+
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.io.File;
@@ -8,12 +11,29 @@ import java.io.InputStream;
 import java.security.DigestInputStream;
 
 public class FileComparator {
-    public static boolean compareFiles(String filePath1, String filePath2)
+    public static boolean compareFiles(String outputFile, String resourcesFile)
             throws IOException, NoSuchAlgorithmException {
-        String hash1 = calculateFileHash(filePath1);
-        String hash2 = calculateFileHash(filePath2);
+        if (isXmlFile(outputFile)) {
+            String content1 = readFileContent(outputFile);
+            String content2 = readFileContent(resourcesFile);
+            return content1.equals(content2);
+        } else {
+            String hash1 = calculateFileHash(outputFile);
+            String hash2 = calculateFileHash(resourcesFile);
+            return hash1.equals(hash2);
+        }
+    }
+    private static boolean isXmlFile(String filePath) {
+        return filePath.toLowerCase().endsWith(".xml");
+    }
 
-        return hash1.equals(hash2);
+    private static String readFileContent(String filePath) throws IOException {
+        byte[] encoded = Files.readAllBytes(Paths.get(filePath));
+        String content = new String(encoded);
+
+        content = content.replaceAll("[\\t\\n\\x0B\\f\\r\\s]", "");
+
+        return content;
     }
     private static String calculateFileHash(String filePath)
             throws IOException, NoSuchAlgorithmException {

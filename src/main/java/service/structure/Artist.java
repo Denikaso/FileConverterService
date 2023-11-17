@@ -8,7 +8,8 @@ import java.util.List;
 public class Artist {
     @JacksonXmlProperty(localName ="name", isAttribute = true)
     private String name;
-    @JacksonXmlProperty(localName ="releasedWorks")
+    @JacksonXmlElementWrapper(localName = "releasedWorks")
+    @JacksonXmlProperty(localName = "work")
     private List<Work> releasedWorks;
 
     public String getName() {

@@ -2,13 +2,13 @@ package service.structure;
 
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlElementWrapper;
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
-
 import java.util.List;
 
 public class Genre {
     @JacksonXmlProperty(localName ="name", isAttribute = true)
     private String name;
-    @JacksonXmlProperty(localName ="artists")
+    @JacksonXmlElementWrapper(localName = "artists")
+    @JacksonXmlProperty(localName ="artist")
     private List<Artist> artists;
 
     public String getName() {

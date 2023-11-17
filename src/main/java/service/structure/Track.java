@@ -4,7 +4,6 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
-import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlText;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Track {
@@ -17,9 +16,6 @@ public class Track {
     @JacksonXmlProperty(localName = "featuredArtist")
     @JsonInclude(Include.NON_NULL)
     private String featuredArtist;
-
-    //@JsonInclude(Include.NON_NULL)
-    //private String artist;
 
     public String getTitle() {
         return title;
