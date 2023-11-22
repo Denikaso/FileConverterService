@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Json {
-    static public void write(MusicCatalog musicCatalog, String jsonFilePath) throws IOException {
+    static final public void write(MusicCatalog musicCatalog, String jsonFilePath) throws IOException {
         List<ArtistWithGenre> artistsWithGenreList = new ArrayList<>();
 
         for (Genre genre : musicCatalog.getGenres()) {
@@ -38,7 +38,7 @@ public class Json {
         MusicCatalogJSON musicCatalogJSON = new MusicCatalogJSON(artistsWithGenreList);
         jsonMapper.writeValue(new File(jsonFilePath), musicCatalogJSON);
     }
-    static public List<ArtistWithGenre> read(String jsonFilePath) throws IOException {
+    static final public List<ArtistWithGenre> read(String jsonFilePath) throws IOException {
         ObjectMapper jsonMapper = new ObjectMapper();
         MusicCatalogJSON musicCatalogJSON = jsonMapper.readValue(new File(jsonFilePath), MusicCatalogJSON.class);
         return musicCatalogJSON.getArtists();

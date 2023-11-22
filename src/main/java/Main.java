@@ -17,13 +17,15 @@ public class Main {
             throw new Exception();
         }
 
+        Xml xmlConverter = new Xml();
+
         String inputFilePath = args[0];
         String outputFilePath = args[1];
 
 
         if (inputFilePath.endsWith(".xml")) {
             try {
-                MusicCatalog musicCatalog = Xml.read(inputFilePath);
+                MusicCatalog musicCatalog = xmlConverter.read(inputFilePath);
                 Json.write(musicCatalog, outputFilePath);
                 compareFiles(outputFilePath, "data.json");
             }
@@ -35,8 +37,9 @@ public class Main {
         else if (inputFilePath.endsWith(".json")) {
             try {
                 List<ArtistWithGenre> artistsWithGenre = Json.read(inputFilePath);
-                Xml.write(artistsWithGenre, outputFilePath);
+                xmlConverter.write(artistsWithGenre, outputFilePath);
                 compareFiles(outputFilePath, "data.xml");
+                Streams streams = new Streams(artistsWithGenre);
             }
             catch(Exception e) {
                 e.printStackTrace();

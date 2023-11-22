@@ -13,42 +13,30 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Xml {
-    static public MusicCatalog read(String xmlFilePath) throws IOException {
-        XmlMapper xmlMapper = new XmlMapper();
+    private XmlMapper xmlMapper;
+
+    public Xml() {
+        this.xmlMapper = new XmlMapper();
+    }
+    final public MusicCatalog read(String xmlFilePath) throws IOException {
         return xmlMapper.readValue(new File(xmlFilePath), MusicCatalog.class);
     }
-    static public void write(List<ArtistWithGenre> artistsWithGenre, String xmlFilePath) throws IOException {
-        XmlMapper xmlMapper = new XmlMapper();
-
+    final public void write(List<ArtistWithGenre> artistsWithGenre, String xmlFilePath) throws IOException {
         xmlMapper.enable(SerializationFeature.INDENT_OUTPUT);
 
         MusicCatalog musicCatalog = new MusicCatalog();
-        musicCatalog.setGenres(convertToGenreList(artistsWithGenre));
-        File tempFile = File.createTempFile("tempfile", ".xml");
-        try (OutputStream os = Files.newOutputStream(tempFile.toPath(), StandardOpenOption.WRITE)) {
-            os.write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n".getBytes());
-            xmlMapper.writeValue(os, musicCatalog);
-        }
-        Files.move(tempFile.toPath(), new File(xmlFilePath).toPath(), StandardCopyOption.REPLACE_EXISTING);
-    }
-
-    private static List<Genre> convertToGenreList(List<ArtistWithGenre> artistsWithGenre) {
-        List<Genre> genres = new ArrayList<>();
 
         for (ArtistWithGenre artistWithGenre : artistsWithGenre) {
-            Genre genre = null;
-            for (Genre existingGenre : genres) {
-                if (existingGenre.getName().equals(artistWithGenre.getGenre())) {
-                    genre = existingGenre;
-                    break;
-                }
-            }
-            if (genre == null) {
-                genre = new Genre();
-                genre.setName(artistWithGenre.getGenre());
-                genre.setArtists(new ArrayList<>());
-                genres.add(genre);
-            }
+            Genre genre = musicCatalog.getGenres().stream()
+                    .filter(existingGenre -> existingGenre.getName().equals(artistWithGenre.getGenre()))
+                    .findFirst()
+                    .orElseGet(() -> {
+                        Genre newGenre = new Genre();
+                        newGenre.setName(artistWithGenre.getGenre());
+                        newGenre.setArtists(new ArrayList<>());
+                        musicCatalog.getGenres().add(newGenre);
+                        return newGenre;
+                    });
 
             Artist artist = new Artist();
             artist.setName(artistWithGenre.getName());
@@ -56,7 +44,10 @@ public class Xml {
             genre.getArtists().add(artist);
         }
 
-        return genres;
+        try (OutputStream os = Files.newOutputStream(new File(xmlFilePath).toPath(), StandardOpenOption.WRITE)) {
+            os.write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n".getBytes());
+            xmlMapper.writeValue(os, musicCatalog);
+        }
     }
 }
 
