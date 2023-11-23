@@ -44,9 +44,12 @@ public class Xml {
             genre.getArtists().add(artist);
         }
 
-        try (OutputStream os = Files.newOutputStream(new File(xmlFilePath).toPath(), StandardOpenOption.WRITE)) {
+        try (OutputStream os = Files.newOutputStream(new File(xmlFilePath).toPath(), StandardOpenOption.CREATE, StandardOpenOption.WRITE)) {
             os.write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n".getBytes());
             xmlMapper.writeValue(os, musicCatalog);
+        }
+        catch (IOException e) {
+            e.printStackTrace();
         }
     }
 }

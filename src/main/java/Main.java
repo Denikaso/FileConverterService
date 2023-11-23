@@ -39,7 +39,6 @@ public class Main {
                 List<ArtistWithGenre> artistsWithGenre = Json.read(inputFilePath);
                 xmlConverter.write(artistsWithGenre, outputFilePath);
                 compareFiles(outputFilePath, "data.xml");
-                Streams streams = new Streams(artistsWithGenre);
             }
             catch(Exception e) {
                 e.printStackTrace();
